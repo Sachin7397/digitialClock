@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
+
+body {
+  background: #131313;
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  font-family: 'Ga Maamli';
+}
+
+.heading {
+  color: #F5F5F5;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.time {
+  background: #090909;
+  color: #FFFFFF;
+  font-size: 100px;
+  width: 150px;
+  margin: 0px 10px;
+  text-align: center;
+}
